@@ -46,7 +46,7 @@ if st.button("Tell me", use_container_width=400):
 
 st.title(" ")
 
-with st.expander("IEEEXtreme 18.0")
+with st.expander("IEEEXtreme 18.0"):
 	col1, col2 = st.columns(2)
 	with col1:
 	    st.subheader("Exoplanets")
