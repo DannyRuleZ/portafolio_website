@@ -49,13 +49,14 @@ st.title(" ")
 with st.expander("IEEEXtreme 18.0"):
 	col1, col2 = st.columns(2)
 	with col1:
-	    st.subheader("Exoplanets")
-	    st.write("- Hackaton from Nasa Space APP's")
-	    st.write("- UPB organization")
+	    st.subheader("IEEEXtreme")
+	    st.write("- Hackaton from IEEE 18.0 Version")
+	    st.write("- Ambassadors organization")
 	    st.write("- 24 hours programming")
+	    st.write("- 18k+ participants")
 	
 	with col2:
-	    st.video("https://youtu.be/SybEvp_TIds?si=AbN6yQStMId1LOcQ")
+	    st.video("https://youtu.be/zpvw8AjW7iU")
 
 st.title(" ")
 
