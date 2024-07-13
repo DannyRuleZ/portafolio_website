@@ -56,7 +56,7 @@ with st.expander("IEEEXtreme 18.0"):
 	    st.write("- 18k+ participants")
 	
 	with col2:
-	    st.video("https://youtu.be/zpvw8AjW7iU")
+	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
 
 st.title(" ")
 
