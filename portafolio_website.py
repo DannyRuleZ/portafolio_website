@@ -1,16 +1,11 @@
 import streamlit as st
 import google.generativeai as genai
 
-st.set_page_config(page_tittle='Daniel S')
+#st.set_page_config(page_tittle='Daniel S', page_icon='🦾')
 
 api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
-
-
 model = genai.GenerativeModel('gemini-1.5-flash')
-
-
-
 
 col1 , col2 = st.columns(2)
 
@@ -51,15 +46,16 @@ if st.button("Tell me", use_container_width=400):
 
 st.title(" ")
 
-col1, col2 = st.columns(2)
-with col1:
-    st.subheader("Exoplanets")
-    st.write("- Hackaton from Nasa Space APP's")
-    st.write("- UPB organization")
-    st.write("- 24 hours programming")
-
-with col2:
-    st.video("https://youtu.be/SybEvp_TIds?si=AbN6yQStMId1LOcQ")
+with st.expander("IEEEXtreme 18.0")
+	col1, col2 = st.columns(2)
+	with col1:
+	    st.subheader("Exoplanets")
+	    st.write("- Hackaton from Nasa Space APP's")
+	    st.write("- UPB organization")
+	    st.write("- 24 hours programming")
+	
+	with col2:
+	    st.video("https://youtu.be/SybEvp_TIds?si=AbN6yQStMId1LOcQ")
 
 st.title(" ")
 
