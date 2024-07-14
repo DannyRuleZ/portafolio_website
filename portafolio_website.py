@@ -142,8 +142,9 @@ st.subheader("My skills")
 st.slider("Programming", 0, 100, 70)
 st.slider("Electronic", 0, 100, 80)
 st.slider("Robotic", 0, 100, 90)
+st.slider("Cybersecurity", 0, 100, 70)
 
-st.file_uploader("Upload a file")
+#st.file_uploader("Upload a file")
 
 st.write(" ")
 st.subheader("Galery")
@@ -166,6 +167,16 @@ with st.expander("FETIN - Brasil"):
 	    st.image("images/g8.jpg")
 	    st.image("images/g9.jpg")
 	    st.image("images/g10.jpg")
+		
+with st.expander("Sao Paulo"):
+	st.write("A very impressive and very large city, the people are very happy and the food is extraordinary, if you have the opportunity to visit it, do it!")
+	col1, col2, col3 = st.columns(3)
+	with col1:
+		st.image("images/g11.jpg")
+	with col2:
+		st.image("images/g12.jpg")
+	with col3:
+		st.image("images/g13.jpg")
 
 st.subheader(" ")
 st.write("CONTACT")
