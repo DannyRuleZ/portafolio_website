@@ -36,7 +36,7 @@ persona = """
 	IEEE Student Branch's Facebook: https://www.facebook.com/profile.php?id=100092660732519
 	"""
 
-st.title("Daniel's AI Bot")
+st.subheader("Daniel's AI Bot")
 
 user_question = st.text_input("Ask anything about me")
 if st.button("Tell me", use_container_width=400):
@@ -66,7 +66,7 @@ st.title("My inspiration morning")
 st.image("images/g1.jpg")
 
 st.write(" ")
-st.title("My skills")
+st.subheader("My skills")
 st.slider("Programming", 0, 100, 70)
 st.slider("Electronic", 0, 100, 80)
 st.slider("Robotic", 0, 100, 90)
@@ -74,7 +74,7 @@ st.slider("Robotic", 0, 100, 90)
 st.file_uploader("Upload a file")
 
 st.write(" ")
-st.title("Galery")
+st.subheader("Galery")
 col1, col2, col3 = st.columns(3)
 with col1:
     st.image("images/g2.jpg")
