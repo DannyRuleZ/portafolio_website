@@ -85,7 +85,7 @@ with st.expander("Password generator"):
 	if st.button("Tell me", use_container_width=300):
 		try:
 			password_length = int(length)
-			if password_legth <= 0:
+			if password_length <= 0:
 				st.error("Password legth must be greater than 0")
 			else:
 				generate_password = generate_password(password_length)
