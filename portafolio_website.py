@@ -186,17 +186,17 @@ with st.expander("FETIN - Brasil"):
 	with col1:
 	    st.image("images/g22.jpg")
 	    st.image("images/g3.jpg")
-	    st.image("images/g4.jpg")
+	    st.image("images/g32.jpg")
 	
 	with col2:
 	    st.image("images/g23.jpg")
 	    st.image("images/g6.jpg")
-	    st.image("images/g7.jpg")
+	    st.image("images/g33.jpg")
 	
 	with col3:
 	    st.image("images/g24.jpg")
 	    st.image("images/g9.jpg")
-	    st.image("images/g10.jpg")
+	    st.image("images/g34.jpg")
 		
 with st.expander("Sao Paulo"):
 	st.write("A very impressive and very large city, the people are very happy and the food is extraordinary, if you have the opportunity to visit it, do it!")
