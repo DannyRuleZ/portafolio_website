@@ -172,6 +172,7 @@ st.slider("Programming", 0, 100, 70)
 st.slider("Electronic", 0, 100, 80)
 st.slider("Robotic", 0, 100, 90)
 st.slider("Cybersecurity", 0, 100, 70)
+st.slider("Linux", 0, 100, 80)
 
 #st.file_uploader("Upload a file")
 
