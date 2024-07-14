@@ -15,7 +15,7 @@ with col1:
     st.title("I am Daniel S.")
 
 with col2:
-    st.image("images/profile_hack.png")
+    st.image("images/Daniel_Sarabia.png")
 
 st.subheader(" ")
 
