@@ -63,19 +63,45 @@ with st.expander("IEEEXtreme 18.0"):
 st.subheader(" ")
 
 st.subheader("Which channel woutld you like to see?")
-list = ["Select channel", "Electronic", "Robotic", "embedded systems", "Math & Science", "Office"]
+list = ["Select channel", "Electronic", "Robotic", "Programming", "embedded systems", "Math & Science", "Office", "Technology news"]
 result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
 if result == "Electronic":
-    st.write("")
+    st.write("- [LaBuhardillaDelLoco](https://www.youtube.com/@LaBuhardillaDelLoco/videos)")
+	st.write("- [Ampletos](https://www.youtube.com/c/Ampletos/videos)")
+	st.write("- []()")
+	st.write("- []()")
+	st.write("- []()")
+	st.write("- []()")
+	st.write("- []()")
 elif result == "Robotic":
-    st.write("Texto sobre robótica")
+    st.write("- [Héctor Pérez](https://www.youtube.com/c/hectorperezwordpress)")
+	st.write("- []()")
+	st.write("- []()")
+	st.write("- []()")
+elif result == "Programming":
+	st.write("- [Programación ATS](https://www.youtube.com/c/Programaci%C3%B3nATS)")
+	st.write("- []()")
+	st.write("- []()")
 elif result == "embedded systems":
-    st.write("Texto sobre sistemas embebidos")
+    st.write("- [Wels](https://www.youtube.com/c/Wels_Theory/videos)")
+	st.write("- []()")
+	st.write("- []()")
 elif result == "Math & Science":
-    st.write("Texto sobre matemáticas y ciencias")
+    st.write("- [The Organic Chemistry Tutor](https://www.youtube.com/c/TheOrganicChemistryTutor/videos)")
+	st.write("- [Edgar Salazar](https://www.youtube.com/@edgarsalazar1045/featured)")
+	st.write("- [Anderson Matemáticas R8](https://www.youtube.com/c/andersonmatematicas/videos)")
+	st.write("- [Creciendo en Ingeniería Mecánica y Eléctrica](https://www.youtube.com/channel/UCGoUK4hID8QOjQBfp-yeYBw)")
+	st.write("- []()")
 elif result == "Office":
     st.write("- [Franklin García](https://www.youtube.com/user/MrFranklingr/featured)")
+	st.write("- [Dostin Hurtado](https://www.youtube.com/c/DostinHurtado)")
+	st.write("- []()")
+	st.write("- []()")
+	st.write("- []()")
+elif result == "Technology news":
+	st.write("- [GioCode](https://www.youtube.com/channel/UC3yDP9DLJI7rPqPovQaOJMg)")
+	st.write("- []()")
 else:
     st.write("Por favor, selecciona un canal")
 
