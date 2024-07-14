@@ -65,9 +65,9 @@ st.subheader(" ")
 st.subheader("Which channel woutld you like to see?")
 list = ["Select channel", "Electronic", "Robotic", "embedded systems", "Math & Science", "Office"]
 result = st.selectbox("Select", list)
-st.write(f"tu canal es: {result}")
+#st.write(f"tu canal es: {result}")
 if result == "Electronic":
-    st.write("Texto sobre electrónica")
+    st.write("")
 elif result == "Robotic":
     st.write("Texto sobre robótica")
 elif result == "embedded systems":
@@ -75,7 +75,7 @@ elif result == "embedded systems":
 elif result == "Math & Science":
     st.write("Texto sobre matemáticas y ciencias")
 elif result == "Office":
-    st.write("Texto sobre oficina")
+    st.write("- [Franklin García](https://www.youtube.com/user/MrFranklingr/featured)")
 else:
     st.write("Por favor, selecciona un canal")
 
