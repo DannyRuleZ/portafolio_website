@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-#st.set_page_config(page_tittle='Daniel S', page_icon='🦾')
+st.set_page_config(page_tittle="Daniel S", page_icon="🦾")
 
 api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
