@@ -84,7 +84,8 @@ channels = {
         ("The Organic Chemistry Tutor", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_6"),
         ("Edgar Salazar", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_7"),
         ("Anderson Matemáticas R8", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_8"),
-        ("Creciendo en Ingeniería Mecánica y Eléctrica", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_9")
+        ("Creciendo en Ingeniería Mecánica y Eléctrica", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_9"),
+	    ("MIT OpenCourseWare", "https://www.youtube.com/c/mitocw")
     ],
     "Office": [
         ("Franklin García", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_10"),
@@ -100,7 +101,7 @@ if result in channels:
     for channel, link in channels[result]:
         st.write(f"- [{channel}]({link})")
 else:
-    st.write("Por favor, selecciona un canal")
+    st.write("Please, select a topic")
 
 st.write(" ")
 st.subheader("My skills")
