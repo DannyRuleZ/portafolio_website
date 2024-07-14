@@ -44,7 +44,7 @@ if st.button("Tell me", use_container_width=400):
     response = model.generate_content(prompt)
     st.write(response.text)
 
-st.title(" ")
+st.subheader(" ")
 
 st.subheader("Future events")
 with st.expander("IEEEXtreme 18.0"):
@@ -61,9 +61,6 @@ with st.expander("IEEEXtreme 18.0"):
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
 
 st.title(" ")
-
-st.title("My inspiration morning")
-st.image("images/g1.jpg")
 
 st.write(" ")
 st.subheader("My skills")
