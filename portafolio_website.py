@@ -63,10 +63,13 @@ with st.expander("IEEEXtreme 18.0"):
 st.subheader(" ")
 
 st.subheader("Which channel woutld you like to see?")
-list = ["Select channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
+list = ["Select channel", "Best channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
 result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
 channels = {
+	"Best channel": [
+        ("Murtaza's Workshop - Robotics and AI", "https://www.youtube.com/@murtazasworkshop")
+    ],
     "Electronic": [
         ("LaBuhardillaDelLoco", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_1"),
         ("Ampletos", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_2"),
