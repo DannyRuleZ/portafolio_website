@@ -185,16 +185,16 @@ with st.expander("FETIN - Brasil"):
 	col1, col2, col3 = st.columns(3)
 	with col1:
 	    st.image("images/g22.jpg")
-	    st.image("images/g23.jpg")
-	    st.image("images/g24.jpg")
+	    st.image("images/g3.jpg")
+	    st.image("images/g4.jpg")
 	
 	with col2:
-	    st.image("images/g5.jpg")
+	    st.image("images/g23.jpg")
 	    st.image("images/g6.jpg")
 	    st.image("images/g7.jpg")
 	
 	with col3:
-	    st.image("images/g8.jpg")
+	    st.image("images/g24.jpg")
 	    st.image("images/g9.jpg")
 	    st.image("images/g10.jpg")
 		
