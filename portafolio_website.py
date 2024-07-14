@@ -60,7 +60,12 @@ with st.expander("IEEEXtreme 18.0"):
 	with col2:
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
 
-st.title(" ")
+st.subheader(" ")
+
+st.subheader("Which channel woutld you like to see")
+list = ["Select channel", "cal 1", "canal 2"]
+result = st.selectbox(Select, list)
+st.write(f"tu canal es: {result}")
 
 st.write(" ")
 st.subheader("My skills")
