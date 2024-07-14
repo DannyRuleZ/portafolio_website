@@ -148,6 +148,9 @@ st.file_uploader("Upload a file")
 st.write(" ")
 st.subheader("Galery")
 with st.expander("FETIN - Brasil"):
+	st.subheader("Do we believe together?")
+	st.write("This is the FETIN theme for the year 2023, which proposes that we all together make our ideas and dreams come true.")
+	st.write("FETIN is more than a technology fair, it is a space for people from all corners, from our corner here in Inatel to other corners of the world, to make their creativity and desire come true.")
 	col1, col2, col3 = st.columns(3)
 	with col1:
 	    st.image("images/g2.jpg")
