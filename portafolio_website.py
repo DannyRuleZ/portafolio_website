@@ -202,8 +202,8 @@ with st.expander("Sao Paulo"):
 	with col3:
 		st.image("images/g13.jpg")
 		
-#with st.expander("warbot death"):
-	#st.video("warbot1.mp4")
+with st.expander("warbot death"):
+	st.link("https://www.youtube.com/shorts/bnWZb8ay18c")
 	
 
 st.subheader(" ")
