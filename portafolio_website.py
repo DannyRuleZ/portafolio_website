@@ -54,7 +54,7 @@ with st.expander("IEEEXtreme 18.0"):
 	    st.write("- 700+ Students branchs")
 	    st.write("- 24 hours programming")
 	    st.write("- 18k+ participants")
-	    st.button("Youtube", "https://www.youtube.com/@Daniel-xg2lk", "Canal de youtube", icon_size)
+	    st.button("Youtube", "https://www.youtube.com/@Daniel-xg2lk", "Canal de youtube")
 	
 	with col2:
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
