@@ -215,4 +215,4 @@ with st.expander("Sao Paulo"):
 st.subheader(" ")
 st.write("CONTACT")
 st.title("For any inquiries, email at:")
-st.subheader("dsarabiay@gmail.com")
+st.subheader("dsarabiay@ieee.org")
