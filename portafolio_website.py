@@ -68,13 +68,13 @@ result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
 if result == "Electronic":
     st.write("- [LaBuhardillaDelLoco](https://www.youtube.com/@LaBuhardillaDelLoco/videos)")
-	st.write("- [Ampletos](https://www.youtube.com/c/Ampletos/videos)")
+st.write("- [Ampletos](https://www.youtube.com/c/Ampletos/videos)")
 st.write("- []()")
 st.write("- []()")
 st.write("- []()")
 st.write("- []()")
 st.write("- []()")
-elif result == "Robotic":
+	elif result == "Robotic":
     st.write("- [Héctor Pérez](https://www.youtube.com/c/hectorperezwordpress)")
 st.write("- []()")
 st.write("- []()")
