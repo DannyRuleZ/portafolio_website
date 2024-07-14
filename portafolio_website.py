@@ -77,8 +77,12 @@ channels = {
     "Programming": [
         ("Programación ATS", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_4")
     ],
-    "embedded systems": [
+    "Embedded systems": [
         ("Wels", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_5")
+    ],
+	"Hacking": [
+        ("s4vitar", "https://www.youtube.com/@s4vitar"),
+        ("Cosmodium CyberSecurity", "https://www.youtube.com/@CosmodiumCS/videos")
     ],
     "Math & Science": [
         ("The Organic Chemistry Tutor", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_6"),
