@@ -74,7 +74,7 @@ st.write("- []()")
 st.write("- []()")
 st.write("- []()")
 st.write("- []()")
-elif result == "Robotic":
+else if result == "Robotic":
     st.write("- [Héctor Pérez](https://www.youtube.com/c/hectorperezwordpress)")
 st.write("- []()")
 st.write("- []()")
