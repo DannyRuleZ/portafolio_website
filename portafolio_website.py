@@ -32,6 +32,7 @@ persona = """
 	Daniel studied at the "Universidad del Valle" (La Paz - Bolivia) and is interested in continuing to study the integration of artificial vision with robotics, and electronics with cybersecurity.
 	Daniel has been president of the scientific society of electronics, telecommunications and mechatronics (SOCIETM). He was also the chair of the IEEE student branch of his university.
  	Daniel has experience teaching educational robotics, carrying out electronics and robotics projects.
+  	Daniel was born on April 23, 2001
 
 	Daniel's Email: dsarabiay@gmail.com
 	Daniel's Facebook: https://www.facebook.com/daniel.sarabia.5811/
@@ -87,7 +88,7 @@ with st.expander("Password generator"):
 			st.error("Invalid password length. Enter a number pls")
 		
 
-st.subheader("Which channel woutld you like to see?")
+st.subheader("Would you like to learn something?")
 list = ["What would you like to learn?", "Best channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
 result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
