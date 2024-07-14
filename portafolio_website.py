@@ -8,6 +8,15 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
+
+minus = "abcdefghijklmnopqrstuvwxyz"
+mayus = minus.upper()
+numeros = "0123456789"
+simbolos = "@()[]{}*,;/-_?.!$<#>&+%="
+
+base = minus + mayus + numeros + simbolos
+
+
 col1 , col2 = st.columns(2)
 
 with col1:
@@ -63,6 +72,27 @@ with st.expander("IEEEXtreme 18.0"):
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
 
 st.subheader(" ")
+
+
+
+def generate_password(length):
+	characters = string.ascii_letters + string.digits + string.punctuation
+	password = "".join(random.choice(characters) for _ in range(length))
+	return password
+
+with st.expander("Password generator"):
+	length = st.text_input("Password size")
+	if st.button("Tell me", use_container_width=300):
+		try:
+			password_length = int(lenght)
+			if password_legth <= 0:
+				st.error("Password legth must be greater than 0")
+			else:
+				generate_password = generate_password(password_length)
+				st.success(f"Generated password: {generated password}")
+		except ValueError:
+			st.error("Invalid password length. Enter a number pls")
+		
 
 st.subheader("Which channel woutld you like to see?")
 list = ["What would you like to learn?", "Best channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
