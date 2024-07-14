@@ -1,5 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
+import random
 
 #st.set_page_config(page_tittle="Daniel S", page_icon="🦾")
 
