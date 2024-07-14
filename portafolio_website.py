@@ -51,9 +51,10 @@ with st.expander("IEEEXtreme 18.0"):
 	with col1:
 	    st.subheader("IEEEXtreme")
 	    st.write("- Hackaton from IEEE 18.0 Version")
-	    st.write("- Ambassadors organization")
+	    st.write("- 700+ Students branchs")
 	    st.write("- 24 hours programming")
 	    st.write("- 18k+ participants")
+	    #st.write("- ", + )
 	
 	with col2:
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
