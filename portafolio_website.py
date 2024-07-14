@@ -177,6 +177,10 @@ with st.expander("Sao Paulo"):
 		st.image("images/g12.jpg")
 	with col3:
 		st.image("images/g13.jpg")
+		
+with st.expander("warbot death"):
+	st.video("warbot1.mp4")
+	
 
 st.subheader(" ")
 st.write("CONTACT")
