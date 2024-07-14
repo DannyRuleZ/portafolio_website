@@ -184,9 +184,9 @@ with st.expander("FETIN - Brasil"):
 	st.write("FETIN is more than a technology fair, it is a space for people from all corners, from our corner here in Inatel to other corners of the world, to make their creativity and desire come true.")
 	col1, col2, col3 = st.columns(3)
 	with col1:
-	    st.image("images/g2.jpg")
-	    st.image("images/g3.jpg")
-	    st.image("images/g4.jpg")
+	    st.image("images/g22.jpg")
+	    st.image("images/g23.jpg")
+	    st.image("images/g24.jpg")
 	
 	with col2:
 	    st.image("images/g5.jpg")
