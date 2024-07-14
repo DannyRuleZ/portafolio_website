@@ -64,7 +64,7 @@ st.subheader(" ")
 
 st.subheader("Which channel woutld you like to see")
 list = ["Select channel", "cal 1", "canal 2"]
-result = st.selectbox(Select, list)
+result = st.selectbox("Select", list)
 st.write(f"tu canal es: {result}")
 
 st.write(" ")
