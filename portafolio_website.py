@@ -63,40 +63,66 @@ with st.expander("IEEEXtreme 18.0"):
 st.subheader(" ")
 
 st.subheader("Which channel woutld you like to see?")
-list = ["Select channel", "Electronic", "Robotic", "Programming", "embedded systems", "Hacking", "Math & Science", "Office", "Technology news"]
+list = ["Select channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
 result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
 channels = {
     "Electronic": [
         ("LaBuhardillaDelLoco", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_1"),
-        ("Ampletos", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_2")
+        ("Ampletos", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_2"),
+	    ("Electrónica y Circuitos", "https://www.youtube.com/c/Electr%C3%B3nicayCircuitos97/videos"),
+	    ("Humberto Higinio", "https://www.youtube.com/c/HumbertoHiginio/videos"),
+	    ("ELECTRONOOBS en Español", "https://www.youtube.com/c/ELECTRONOOBSenEspa%C3%B1ol"),
+	    ("ELECTRONOOBS", "https://www.youtube.com/@ELECTRONOOBS/featured"),
+	    ("Mentalidad De Ingeniería", "https://www.youtube.com/c/MentalidadDeIngenier%C3%ADa")
     ],
     "Robotic": [
-        ("Héctor Pérez", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_3")
+        ("Héctor Pérez", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_3"),
+	    ("Oscar gonzalez", "https://www.youtube.com/c/oscargo9/videos"),
+	    ("Electronic Clinic", "https://www.youtube.com/@ElectroniClinic/videos"),
+	    ("Bitwise Ar", "https://www.youtube.com/@BitwiseAr"),
+	    ("hash include electronics", "https://www.youtube.com/c/hashincludeelectronics"),
+	    ("CarlosVolt Electrónica y Robótica", "https://www.youtube.com/@Carlosvolt/videos"),
+	    ("That Project", "https://www.youtube.com/@ThatProject/videos"),
+	    ("Jadsa Tech", "https://www.youtube.com/@jadsa/videos"),
+	    ("Edison R Sasig - Roboticoss", "https://www.youtube.com/@roboticoss/videos")
     ],
     "Programming": [
-        ("Programación ATS", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_4")
+        ("Programación ATS", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_4"),
+	    ("Fazt", "https://www.youtube.com/@FaztTech")
     ],
-    "embedded systems": [
+    "Embedded systems": [
         ("Wels", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_5")
     ],
 	"Hacking": [
         ("s4vitar", "https://www.youtube.com/@s4vitar"),
-        ("Cosmodium CyberSecurity", "https://www.youtube.com/@CosmodiumCS/videos")
+        ("Cosmodium CyberSecurity", "https://www.youtube.com/@CosmodiumCS/videos"),
+		("Academia de Ciberseguridad", "https://www.youtube.com/@academiadeciberseguridad"),
+		("Dolbuck S.L.", "https://www.youtube.com/@dolbuck_ciberseguridad"),
+		("Hixec", "https://www.youtube.com/@Hixec"),
+		("VulnHunters", "https://www.youtube.com/@VulnHunters/featured")
     ],
+	"Network": [
+        ("Network Warriors", "https://www.youtube.com/@NetworkWarriors/videos"),
+		("RedesCiber - Tu Academia de Redes y Ciberseguridad", "https://www.youtube.com/@RedesCiber")
+	],
     "Math & Science": [
         ("The Organic Chemistry Tutor", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_6"),
         ("Edgar Salazar", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_7"),
         ("Anderson Matemáticas R8", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_8"),
         ("Creciendo en Ingeniería Mecánica y Eléctrica", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_9"),
-	    ("MIT OpenCourseWare", "https://www.youtube.com/c/mitocw")
+	    ("MIT OpenCourseWare", "https://www.youtube.com/c/mitocw"),
+	    ("Luis Felipe de Jesús Hernández Quintanar", "https://www.youtube.com/@luisfelipedejesushernandez5661/videos")
     ],
     "Office": [
         ("Franklin García", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_10"),
-        ("Dostin Hurtado", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_11")
+        ("Dostin Hurtado", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_11"),
+	    ("SMARTpro Academy", "https://www.youtube.com/channel/UCqtA50lNwtNAg6S0UkI5bxw"),
+	    ("Officefacil", "https://www.youtube.com/@Officefacil")
     ],
     "Technology news": [
-        ("GioCode", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_12")
+        ("GioCode", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_12"),
+	    ("Branch Education", "https://www.youtube.com/@BranchEducation")
     ]
 }
 
