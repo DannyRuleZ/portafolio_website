@@ -62,10 +62,22 @@ with st.expander("IEEEXtreme 18.0"):
 
 st.subheader(" ")
 
-st.subheader("Which channel woutld you like to see")
-list = ["Select channel", "cal 1", "canal 2"]
+st.subheader("Which channel woutld you like to see?")
+list = ["Select channel", "Electronic", "Robotic", "embedded systems", "Math & Science", "Office"]
 result = st.selectbox("Select", list)
 st.write(f"tu canal es: {result}")
+if result == "Electronic":
+    st.write("Texto sobre electrónica")
+elif result == "Robotic":
+    st.write("Texto sobre robótica")
+elif result == "embedded systems":
+    st.write("Texto sobre sistemas embebidos")
+elif result == "Math & Science":
+    st.write("Texto sobre matemáticas y ciencias")
+elif result == "Office":
+    st.write("Texto sobre oficina")
+else:
+    st.write("Por favor, selecciona un canal")
 
 st.write(" ")
 st.subheader("My skills")
