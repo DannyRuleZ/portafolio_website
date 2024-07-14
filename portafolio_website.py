@@ -49,7 +49,7 @@ st.title(" ")
 with st.expander("IEEEXtreme 18.0"):
 	col1, col2 = st.columns(2)
 	with col1:
-	    st.subheader("IEEEXtreme")
+	    st.subheader(st.link("IEEEXtreme", "https://ieeextreme.org/"))
 	    st.write("- Hackaton from IEEE 18.0 Version")
 	    st.write("- 700+ Students branchs")
 	    st.write("- 24 hours programming")
