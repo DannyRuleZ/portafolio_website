@@ -89,6 +89,7 @@ with col3:
     st.image("images/g9.jpg")
     st.image("images/g10.jpg")
 
-st.write(" ")
-st.subheader("Contact me")
-st.write("dsarabiay@gmail.com")
+st.subheader(" ")
+st.write("CONTACT")
+st.title("For any inquiries, email at:")
+st.subheader("dsarabiay@gmail.com")
