@@ -84,7 +84,7 @@ with st.expander("Password generator"):
 	length = st.text_input("Password size")
 	if st.button("Tell me", use_container_width=300):
 		try:
-			password_length = int(lenght)
+			password_length = int(length)
 			if password_legth <= 0:
 				st.error("Password legth must be greater than 0")
 			else:
