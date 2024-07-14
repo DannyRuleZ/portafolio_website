@@ -10,6 +10,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 col1 , col2 = st.columns(2)
 
 with col1:
+	st.title(" ")
     st.subheader("Hii!! :wave:")
     st.title("I am Daniel S.")
 
@@ -55,7 +56,7 @@ with st.expander("IEEEXtreme 18.0"):
 	    st.write("- 700+ Students branchs")
 	    st.write("- 24 hours programming")
 	    st.write("- 18k+ participants")
-	    st.write("[Mas informacion](https://ieeextreme.org/)")
+	    st.write("[More information](https://ieeextreme.org/)")
 	
 	with col2:
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
