@@ -49,12 +49,12 @@ st.title(" ")
 with st.expander("IEEEXtreme 18.0"):
 	col1, col2 = st.columns(2)
 	with col1:
-	    st.subheader(st.link("IEEEXtreme", "https://ieeextreme.org/"))
+	    st.subheader("IEEEXtreme")
 	    st.write("- Hackaton from IEEE 18.0 Version")
 	    st.write("- 700+ Students branchs")
 	    st.write("- 24 hours programming")
 	    st.write("- 18k+ participants")
-	    #st.write("- ", + )
+	    st.link("IEEEXtreme", "https://ieeextreme.org/")
 	
 	with col2:
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
