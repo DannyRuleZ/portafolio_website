@@ -178,8 +178,8 @@ with st.expander("Sao Paulo"):
 	with col3:
 		st.image("images/g13.jpg")
 		
-with st.expander("warbot death"):
-	st.video("warbot1.mp4")
+#with st.expander("warbot death"):
+	#st.video("warbot1.mp4")
 	
 
 st.subheader(" ")
