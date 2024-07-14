@@ -66,26 +66,39 @@ st.subheader("Which channel woutld you like to see?")
 list = ["Select channel", "Electronic", "Robotic", "Programming", "embedded systems", "Math & Science", "Office", "Technology news"]
 result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
-if result == "Electronic":
-    st.write("- [LaBuhardillaDelLoco](https://www.youtube.com/@LaBuhardillaDelLoco/videos)")
-st.write("- [Ampletos](https://www.youtube.com/c/Ampletos/videos)")
-elif result == "Robotic":
-    st.write("- [Héctor Pérez](https://www.youtube.com/c/hectorperezwordpress)")
-elif result == "Programming":
-st.write("- [Programación ATS](https://www.youtube.com/c/Programaci%C3%B3nATS)")
-elif result == "embedded systems":
-    st.write("- [Wels](https://www.youtube.com/c/Wels_Theory/videos)")
-elif result == "Math & Science":
-    st.write("- [The Organic Chemistry Tutor](https://www.youtube.com/c/TheOrganicChemistryTutor/videos)")
-st.write("- [Edgar Salazar](https://www.youtube.com/@edgarsalazar1045/featured)")
-st.write("- [Anderson Matemáticas R8](https://www.youtube.com/c/andersonmatematicas/videos)")
-st.write("- [Creciendo en Ingeniería Mecánica y Eléctrica](https://www.youtube.com/channel/UCGoUK4hID8QOjQBfp-yeYBw)")
-#st.write("- []()")
-elif result == "Office":
-    st.write("- [Franklin García](https://www.youtube.com/user/MrFranklingr/featured)")
-st.write("- [Dostin Hurtado](https://www.youtube.com/c/DostinHurtado)")
-elif result == "Technology news":
-st.write("- [GioCode](https://www.youtube.com/channel/UC3yDP9DLJI7rPqPovQaOJMg)")
+channels = {
+    "Electronic": [
+        ("LaBuhardillaDelLoco", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_1"),
+        ("Ampletos", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_2")
+    ],
+    "Robotic": [
+        ("Héctor Pérez", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_3")
+    ],
+    "Programming": [
+        ("Programación ATS", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_4")
+    ],
+    "embedded systems": [
+        ("Wels", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_5")
+    ],
+    "Math & Science": [
+        ("The Organic Chemistry Tutor", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_6"),
+        ("Edgar Salazar", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_7"),
+        ("Anderson Matemáticas R8", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_8"),
+        ("Creciendo en Ingeniería Mecánica y Eléctrica", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_9")
+    ],
+    "Office": [
+        ("Franklin García", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_10"),
+        ("Dostin Hurtado", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_11")
+    ],
+    "Technology news": [
+        ("GioCode", "https://www.youtube.com/channel/YOUR_CHANNEL_ID_12")
+    ]
+}
+
+# Imprimir enlaces según la selección
+if result in channels:
+    for channel, link in channels[result]:
+        st.write(f"- [{channel}]({link})")
 else:
     st.write("Por favor, selecciona un canal")
 
