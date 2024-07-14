@@ -66,12 +66,12 @@ with st.expander("IEEEXtreme 18.0"):
 st.subheader(" ")
 
 
-
 def generate_password(length):
 	characters = string.ascii_letters + string.digits + string.punctuation
 	password = "".join(random.choice(characters) for _ in range(length))
 	return password
 
+st.subheader("Need a secure password?")
 with st.expander("Password generator"):
 	length = st.text_input("Password size")
 	if st.button("Tell me", use_container_width=300):
