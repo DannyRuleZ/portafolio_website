@@ -17,7 +17,7 @@ with col1:
 with col2:
     st.image("images/profile_hack.png")
 
-st.title(" ")
+st.subheader(" ")
 
 persona = """
         You are Daniel AI bot. You help people answer questions about your self (i.e Daniel)
