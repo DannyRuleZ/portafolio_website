@@ -64,7 +64,7 @@ with st.expander("IEEEXtreme 18.0"):
 st.subheader(" ")
 
 st.subheader("Which channel woutld you like to see?")
-list = ["Select channel", "Best channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
+list = ["What would you like to learn?", "Best channel", "Electronic", "Robotic", "Programming", "Embedded systems", "Hacking", "Network", "Math & Science", "Office", "Technology news"]
 result = st.selectbox("Select", list)
 #st.write(f"tu canal es: {result}")
 channels = {
