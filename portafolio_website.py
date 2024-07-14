@@ -203,7 +203,7 @@ with st.expander("Sao Paulo"):
 		st.image("images/g13.jpg")
 		
 with st.expander("warbot death"):
-	st.link("https://www.youtube.com/shorts/bnWZb8ay18c")
+	st.video("https://www.youtube.com/shorts/bnWZb8ay18c")
 	
 
 st.subheader(" ")
