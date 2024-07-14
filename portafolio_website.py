@@ -89,7 +89,7 @@ with st.expander("Password generator"):
 				st.error("Password legth must be greater than 0")
 			else:
 				generate_password = generate_password(password_length)
-				st.success(f"Generated password: {generated password}")
+				st.success(f"Generated password: {generated_password}")
 		except ValueError:
 			st.error("Invalid password length. Enter a number pls")
 		
