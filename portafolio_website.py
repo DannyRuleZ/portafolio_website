@@ -64,16 +64,20 @@ with st.expander("IEEEXtreme 18.0"):
 	
 	with col2:
 	    st.video("https://www.youtube.com/watch?v=zpvw8AjW7iU&ab_channel=Daniel")
-
 st.subheader(" ")
-
-
 def generate_password(length):
 	characters = string.ascii_letters + string.digits + string.punctuation
 	password = "".join(random.choice(characters) for _ in range(length))
 	return password
 
 st.subheader("Need a secure password?")
+st.write("We can classify passwords as the first line of defense in protecting our virtual identity. Therefore, it is very important to avoid using passwords that cybercriminals can easily find out.")
+st.subheader("5 tips for creating strong passwords")
+st.write("- Create passwords that are at least 15 characters and combine letters, numbers, and symbols.")
+st.write("- Don't use real words, even if they are written backwards. They can find them out in a matter of seconds.")
+st.write("- Do not include obvious information such as your name, date of birth, or the name of your wife or husband.")
+st.write("- The most used passwords are keyboard patterns (for example: qwerty), personal names, swear words and “password”. This is as safe as leaving your house door open.")
+st.write("- Don't recycle them, if you do and one of your accounts is compromised, all your accounts are at risk.")
 with st.expander("Password generator"):
 	length = st.text_input("Password size")
 	if st.button("Tell me", use_container_width=300):
